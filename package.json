@@ -1,0 +1,16 @@
+{
+  "name": "is-2d-array",
+  "version": "1.0.0",
+  "description": "Check if array is 2D",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "keywords": ["is", "array", "2d"],
+  "author": "Lukasz Brodowski <lukebrodowski@gmail.com> (http://lukebro.com/)",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.18.2",
+    "xo": "^0.18.0"
+  }
+}
