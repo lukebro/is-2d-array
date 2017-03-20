@@ -2,6 +2,7 @@
   "name": "is-2d-array",
   "version": "1.0.0",
   "description": "Check if array is 2D",
+  "repository": "lukebro/is-2d-array",
   "main": "index.js",
   "scripts": {
     "test": "xo && ava"
