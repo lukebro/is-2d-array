@@ -1,12 +1,12 @@
 'use strict';
 
 module.exports = array => {
-	if (!Array.isArray(array)) {
+	if (!(array.constructor === Array)) {
 		return false;
 	}
 
 	for (const item of array) {
-		if (!Array.isArray(item)) {
+		if (!(item && item.constructor === Array)) {
 			return false;
 		}
 	}
