@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = array => {
-	if (!(array.constructor === Array)) {
+	if (!(array && array.constructor === Array)) {
 		return false;
 	}
 
